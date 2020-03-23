@@ -1,0 +1,23 @@
+html {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+}
+.rating {
+    display: inline-block;
+}
+
+.rating span {
+    color: lightgray;
+}
+
+.filled:before {
+    content: "\2605";
+    color: #ffbf02;
+    position: absolute;
+}
+ .rating {
+    font-size: 2rem;
+}
+#grid img.star-rating {
+  height: 15px;
+}
